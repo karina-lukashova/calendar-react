@@ -10,9 +10,9 @@ interface IRoute {
 };
 
 export enum RouteNames {
-  LOGIN = '/login',
-  EVENT = '/',
-  ANY = '*'
+  LOGIN = '/calendar-react/login',
+  EVENT = '/calendar-react/',
+  ANY = '/calendar-react/*'
 }
 
 export const publicRoutes: IRoute[] = [
